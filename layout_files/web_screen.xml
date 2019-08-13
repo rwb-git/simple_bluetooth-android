@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ListView
+        android:id="@+id/pkts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="50"
+        android:stackFromBottom="true"
+        android:transcriptMode="normal" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+
+        >
+        <Button
+            android:id="@+id/connect_button"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="secure connect"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/connect_insecure"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="insecure connect"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+
+        >
+        <Button
+            android:id="@+id/disconnect_button"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="disconnect"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/dump_sram"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="get data"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
