@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package xyz.fork20.mine.simple_bt;
+package your_package.simple_bt;
 
 import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothAdapter;
