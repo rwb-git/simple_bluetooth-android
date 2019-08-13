@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package xyz.fork20.mine.simple_bt;
+package your_package.simple_bt;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -36,7 +36,7 @@ import android.widget.TextView;
 
 import java.util.Set;
 
-import static xyz.fork20.mine.simple_bt.MainActivity.Log_e;
+import static your_package.MainActivity.Log_e;
 
 
 /**
