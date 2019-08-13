@@ -1,4 +1,4 @@
-package xyz.fork20.mine.simple_bt;
+package your_package.simple_bt;
 
 import android.content.Context;
 import android.os.Bundle;
