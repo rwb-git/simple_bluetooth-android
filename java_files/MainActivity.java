@@ -15,7 +15,7 @@
 */
 
 
-package xyz.fork20.mine.simple_bt;
+package your_package.simple_bt;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
